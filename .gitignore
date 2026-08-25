@@ -1,0 +1,74 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.buildlog/
+.history
+.svn/
+migrate_working_dir/
+
+# IntelliJ IDEA / Android Studio
+*.iml
+.idea/
+.idea_modules/
+
+# Visual Studio Code
+.vscode/
+
+# Flutter / Dart
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+/build/
+**/build/
+
+# Web related
+lib/generated_plugin_registrant.dart
+
+# Symbol processing related
+**/generated/**
+
+# Ephemeral native build files
+**/ios/Flutter/ephemeral/
+**/macos/Flutter/ephemeral/
+**/windows/flutter/ephemeral/
+**/linux/flutter/ephemeral/
+
+# Exceptions to ephemeral rules
+!**/ios/Flutter/ephemeral/flutter_export_environment.sh
+
+# Environment and secrets (CRITICAL)
+.env
+.env.*
+!.env.example
+*.local
+*.secret
+
+# Android signing keys and keystores (CRITICAL)
+*.jks
+*.keystore
+*.p12
+*.pem
+*.key
+key.properties
+
+# Google Services / Firebase credentials
+**/google-services.json
+**/GoogleService-Info.plist
+
+# Supabase CLI Local Runtime Cache
+supabase/.temp/
+**/supabase/.temp/
+.supabase/
+
+# Coverage
+coverage/
+*.lcov
